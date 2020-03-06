@@ -1,0 +1,57 @@
+<aside class="sidebar sidebar-boxed sidebar-dark">
+
+    <a class="sidebar-brand" href="index.html">
+        <img src="https://placehold.it/80x80" alt="logo">
+    </a>
+
+    <!-- Variable for ./data/areas.toml -->
+    {{ $header := .Site.Data.header }}
+    {{ $area1 := .Site.Data.area1 }}
+    {{ $area2 := .Site.Data.area2 }}
+    {{ $area3 := .Site.Data.area3 }}
+
+    <ul class="nav sidenav dropable">
+
+        <li>
+            <a href="#{{ $area1.header.id }}">
+                {{ $area1.header.headline }}
+            </a>
+
+            {{ range $area1.chapter }}
+                <ul>
+                    <li>
+                        <a href="#{{ .id }}">{{ .headline }}</a>
+                    </li>
+                </ul>
+            {{ end }}
+        </li>
+
+        <li>
+            <a href="#{{ $area2.header.id }}">
+                {{ $area2.header.headline }}
+            </a>
+
+            {{ range $area2.chapter }}
+                <ul>
+                    <li>
+                        <a href="#{{ .id }}">{{ .headline }}</a>
+                    </li>
+                </ul>
+            {{ end }}
+        </li>
+
+        <li>
+            <a href="#{{ $area3.header.id }}">
+                {{ $area3.header.headline }}
+            </a>
+
+            {{ range $area3.chapter }}
+                <ul>
+                    <li>
+                        <a href="#{{ .id }}">{{ .headline }}</a>
+                    </li>
+                </ul>
+            {{ end }}
+        </li>
+
+</aside>

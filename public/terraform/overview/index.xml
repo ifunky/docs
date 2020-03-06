@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview on iFunky Refererence Architectures</title>
+    <link>http://example.org/terraform/overview/</link>
+    <description>Recent content in Overview on iFunky Refererence Architectures</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Dec 2019 12:20:12 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/terraform/overview/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
