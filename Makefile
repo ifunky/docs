@@ -5,4 +5,6 @@ help:
 
 run: ## Run Hugo site locally for testing
 	@hugo serve
-	
+
+build: ## Build site
+	@hugo 	

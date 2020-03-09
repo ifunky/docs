@@ -4,6 +4,7 @@ date = 2019-12-04T09:15:58Z
 weight = 5
 chapter = true
 pre = "<b>X. </b>"
+mermaid: true
 +++
 
 ### Reference Architectures and Design
